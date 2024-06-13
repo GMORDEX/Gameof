@@ -124,12 +124,11 @@ int main() {
     }
 
     displayBoard(board);
-    waitForEnter(); // Wait for Enter key press to start simulation
+    waitForEnter(); // Waiting to for enter to start the game
 
     while (counter < 2) {
         displayBoard(board);
         updateBoard(board);
-        cout << "Generation: " << counter << endl;
         Sleep(300); 
     }
 
