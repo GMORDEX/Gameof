@@ -1,0 +1,24 @@
+# Game of Juris with paint picture input
+
+I tried my best
+
+# What you will need
+
+1.A paint picture saved in 24bits thats background is all black while the color of the live cells can be any color except black, the picture size has to match the width(x) and height(y) thats written in the config file "config.txt" and the pictures file name has to be "game_grid.bmp".
+
+# How to compile the code
+
+1. Make sure that you downloaded and setup MinGW
+2. Using the terminal in VSCode type in g++ -o program_name main.cpp
+
+# How to launch the program
+
+There are two options on how to launch it:
+1. You can launch it by going into the folder and launching the file 
+2. Go into VSCode terminal and type ./program_name
+
+# How to start the game
+
+To start the game you simply have to press the enter key
+
+
