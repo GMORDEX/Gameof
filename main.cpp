@@ -55,7 +55,7 @@ void updateBoard(vector<vector<int>>& board) {
                 unchanged = 0;
             }
             else {
-                newBoard[i][j] = board[i][j]; // Remain in the current state
+                newBoard[i][j] = board[i][j]; // stay in the same state
             }
         }
     }
@@ -109,7 +109,7 @@ bool readBMPGrid(const string& filePath, vector<vector<int>>& board, int width, 
 void waitForEnter() {
     cout << "Press Enter to continue...";
     cin.ignore(); // Clear any extra inputs
-    cin.get();    // Wait for Enter key press
+    cin.get();    // Wait for Enter 
 }
 
 int main() {
@@ -124,7 +124,7 @@ int main() {
     }
 
     displayBoard(board);
-    waitForEnter(); // Waiting to for enter to start the game
+    waitForEnter(); // Waiting for enter to start the game
 
     while (counter < 2) {
         displayBoard(board);
